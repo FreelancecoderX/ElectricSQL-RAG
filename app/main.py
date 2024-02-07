@@ -39,7 +39,7 @@ def append_change_to_file(change: Dict) -> None:
     """
     with open("output.json", "a") as f:
         json.dump(change, f)
-        f.write("\n")
+        f.write(",\n")
 
 
 def main(url: str) -> None:
