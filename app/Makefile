@@ -3,3 +3,5 @@ run:
 
 clean:
 	@rm -rf build dist	
+
+.PHONY: run clean
